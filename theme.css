@@ -1,0 +1,13 @@
+.markdown-body {
+  margin: 0 5em 0 5em;
+  padding: 2em 5em 2em 5em;
+  border: 5px solid #24292E;
+  border-radius: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  .markdown-body {
+    margin: 0 1em 0 1em;
+    padding: 0.5em 1em 0.5em 1em;
+  }
+}
