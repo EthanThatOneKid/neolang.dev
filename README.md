@@ -1,7 +1,7 @@
 # Neolang.dev 🐱‍👤🌐
 > Official website of the Neo language.
 
-[![GitHub All Releases](https://img.shields.io/github/downloads/ethanthatonekid/neo/total)](https://github.com/EthanThatOneKid/neo/releases)
+[![GitHub All Releases](https://img.shields.io/github/downloads/ethanthatonekid/neo-cli/total)](https://github.com/EthanThatOneKid/neo/releases)
 [![Buy me a Coffee](https://img.shields.io/badge/buy%20me%20a-coffee-%23FF813F)][bmac]
 
 ## About ❓
