@@ -6,31 +6,28 @@
   <link rel="icon" type="image/png" sizes="32x32" href="meta/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="meta/favicon-16x16.png">
   <link rel="manifest" href="meta/site.webmanifest">
+  <meta http-equiv="refresh" content="0; url=https://github.com/EthanThatOneKid/neo-cli#readme"> 
 
   <title>🐱</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
-  <link rel="stylesheet" href="theme.css">
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    img {
+      height: 100vh;
+      animation: pulse 1s linear infinite both;
+    }
+
+    @media (prefers-reduced-motion) {
+      img {
+        animation-name: dissolve;
+      }
+    }
+  </style>
 </head>
 <body>
   <div id="root" class="markdown-body">
-    <p style="text-align: center;">...loading 🐱</p>
+    <p style="text-align: center;">
+      <img src="bookcover.png" class="animation" alt="🐱">
+    </p>
   </div>
-  <script src="./api.js"></script>
-  <script>
-    const title = "Neo, a scripting language for web automation"
-    const maxLength = title.length - 1
-    let step = 0;
-    const scrollTitle = () => {
-      const x1 = step % title.length,
-            x2 = (step + maxLength) % title.length
-      document.title = x1 > x2
-        ? title.slice(x1) + " ~~ " + title.slice(0, x2)
-        : title.slice(x1, x2)
-      step++
-      setTimeout(scrollTitle, 200)
-    }
-    scrollTitle()
-  </script>
 </body>
 </html>
