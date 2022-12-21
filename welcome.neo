@@ -1,6 +1,5 @@
 ~~ Welcome File
 log Welcome to Neo!
 
-~~ Visit the test directory,
-~~ https://github.com/EthanThatOneKid/neo/tree/master/test,
-~~ in the official repository for real-use examples of various keywords.
+~~ Visit the test directory in the official repository for real-use examples of various keywords:
+~~ https://github.com/EthanThatOneKid/neo-cli/tree/8260bf7f7ac8a363201747b152e265e537f1b8d6/test
